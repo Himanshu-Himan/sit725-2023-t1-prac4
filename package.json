@@ -1,0 +1,24 @@
+{
+  "name": "task3.2p",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Himanshu-Himan/sit725-2023-t1-prac3.git"
+  },
+  "author": "Himanshu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Himanshu-Himan/sit725-2023-t1-prac3/issues"
+  },
+  "homepage": "https://github.com/Himanshu-Himan/sit725-2023-t1-prac3#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^8.0.2"
+  }
+}
