@@ -3,7 +3,7 @@ async function sendMessage() {
   const message = messageInput.value; 
 
   try {
-    const response = await fetch(`/sendMessage?message=${encodeURIComponent(message)}`, {
+    const response = await fetch(`/messages/sendMessage`, { // Updated route
       method: "POST",
       headers: {
         "Content-Type": "application/json",
